@@ -77,11 +77,8 @@
 		81549AFC1BBB936500970E81 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				81549AFF1BBB936500970E81 /* AppDelegate.swift */,
 				81549B011BBB936500970E81 /* ViewController.swift */,
 				81549B031BBB936500970E81 /* Main.storyboard */,
-				81549B061BBB936500970E81 /* Images.xcassets */,
-				81549B081BBB936500970E81 /* LaunchScreen.xib */,
 				81549AFD1BBB936500970E81 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -90,6 +87,9 @@
 		81549AFD1BBB936500970E81 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81549B081BBB936500970E81 /* LaunchScreen.xib */,
+				81549B061BBB936500970E81 /* Images.xcassets */,
+				81549AFF1BBB936500970E81 /* AppDelegate.swift */,
 				81549AFE1BBB936500970E81 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +156,7 @@
 		81549AF21BBB936500970E81 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = sample;
 				TargetAttributes = {
@@ -291,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -411,6 +412,7 @@
 				81549B1B1BBB936500970E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81549B1C1BBB936500970E81 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				81549B1E1BBB936500970E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
